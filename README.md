@@ -1,13 +1,14 @@
-# RJM SvelteKit Template - Base
+# RJM SvelteKit Template - Prisma
 
 This is my personal SvelteKit Git Repo template. It is licensed under GNU's GPL V3.0
-Unlike the other templates I use, this does not contain additional packages
+This template is specialised to have the Prisma ORM installed and given initial configuration. Changes to the Docker files were made to support this
 
 ## Project Features
 
 - ShadCN Svelte
 - TailwindCSS
 - Node Adapter
+- Prisma
 - Built in Containerisation (With Container Health Check)
 
 ## Dev Features
