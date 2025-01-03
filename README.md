@@ -3,6 +3,8 @@
 This is my personal SvelteKit Git Repo template. It is licensed under GNU's GPL V3.0
 This template is specialised to have the Prisma ORM installed and given initial configuration. Changes to the Docker files were made to support this
 
+For docs on using this template, go [here](./docs)
+
 ## Project Features
 
 - ShadCN Svelte
