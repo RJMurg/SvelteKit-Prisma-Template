@@ -8,6 +8,7 @@ RUN npm ci
 FROM node:18-alpine
 WORKDIR /app
 COPY --from=build /app .
+RUN npm run build
 RUN chmod +x ./start.sh
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --start-interval=5s \

@@ -7,9 +7,9 @@ until nc -z sveltekit-prisma-template-db 5432; do
 done
 echo "DB is ready."
 
-# Check if the previous build was successful or if the build success file doesn't exist
-if [ ! -f ./build-success ] || grep -q "false" ./build-success; then
-  echo "Previous build failed or build success file doesn't exist. Rebuilding..."
+# Check if the container has been started before. If not, run first start steps.
+if [ ! -f ./first-start-fragment ] || grep -q "false" ./first-start-fragment; then
+  echo "First start failed, or no previous first start fragment found. Running first start steps."
 
   echo "Generating Prisma Client"
   npx prisma generate
@@ -18,19 +18,16 @@ if [ ! -f ./build-success ] || grep -q "false" ./build-success; then
   echo "Running Prisma migrations..."
   npx prisma migrate deploy
 
-  echo "Building Site"
-  npm run build
-
   # If build was successful, write a token to the file system
   if [ $? -eq 0 ]; then
-    echo "Build successful."
-    echo "true" > ./build-success
+    echo "First Start successful."
+    echo "true" > ./first-start-fragment
   else
-    echo "Build failed."
-    echo "false" > ./build-success
+    echo "First Start failed."
+    echo "false" > ./first-start-fragment
   fi
 else
-  echo "Previous build was successful. Skipping build steps."
+  echo "First Start was successful. Skipping first start steps."
 fi
 
 # Start the server
