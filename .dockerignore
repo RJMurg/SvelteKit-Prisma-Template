@@ -1,14 +1,23 @@
-node_modules
-.git
+# Dotfiles
 .dockerignore
-Dockerfile
-docker-compose.yaml
-README.md
+.env
 .env.example
 .eslintignore
-eslint.config.js
+.git
+.github
 .npmrc
 .prettierignore
 .prettierrc
-.github
+.svelte-kit
+
+# Modules & Outputs
+build
 bun.lockb
+node_modules
+coverage
+
+# Other Unwanted Files
+Dockerfile
+docker-compose.yaml
+README.md
+eslint.config.js

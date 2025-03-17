@@ -1,17 +1,19 @@
 services:
-  starboard:
+  sveltekit-app:
     build: .
-    container_name: sveltekit-prisma-template
+    container_name: sk-prisma-template
     environment:
       DATABASE_URL: postgresql://prisma:prisma@db:5432/prismadb?schema=public
+    ports:
+      - '3000:3000'
     depends_on:
       - db
     networks:
       - sk-prisma-template
 
-  sveltekit-prisma-template-db:
-    image: postgres:13
-    container_name: sveltekit-prisma-template-db
+  db:
+    image: postgres:16.8-alpine3.20
+    container_name: sveltekit-prisma-template
     environment:
       POSTGRES_USER: prisma
       POSTGRES_PASSWORD: prisma

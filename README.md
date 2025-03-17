@@ -1,45 +1,38 @@
-# RJM SvelteKit Template - Prisma
+# sv
 
-This is my personal SvelteKit Git Repo template. It is licensed under GNU's GPL V3.0
-This template is specialised to have the Prisma ORM installed and given initial configuration. Changes to the Docker files were made to support this
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-For the template without Prisma, look [here](https://github.com/RJMurg/SvelteKit-Template).
-For docs on using this template, go [here](./docs)
+## Creating a project
 
-## Project Features
-
-- ShadCN Svelte
-- TailwindCSS
-- Node Adapter
-- Prisma
-- Built in Containerisation (With Container Health Check)
-
-## Dev Features
-
-- Vitest
-- ESLint
-- Prettier
-- PR Checks (Vitest & Test container build)
-- Container build on push to master / main
-
-## Setup:
-
-1. Clone the repository
+If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-git clone https://github.com/RJMurg/SvelteKit-Template.git
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
 ```
 
-2. Install the dependencies
+## Developing
 
-```bash
-npm install
-```
-
-3. Run the development server
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-You are now ready to develop!
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
