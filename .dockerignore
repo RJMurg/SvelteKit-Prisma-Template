@@ -1,0 +1,25 @@
+# Directories
+.git
+.github
+.idea
+.svelte-kit
+coverage
+docs
+node_modules
+tests
+
+# Files
+.dockerignore
+.env.example
+.eslintignore
+.gitignore
+.npmrc
+.prettierignore
+.prettierrc
+Dockerfile
+LICENSE.md
+README.md
+bun.lockb
+docker-compose.yml
+eslint.config.js
+playwright.config.ts
