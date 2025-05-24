@@ -1,5 +1,39 @@
 services:
   web:
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.your-app-name.rule=Host(`sub.example.com`)'
+      - 'traefik.http.services.your-app-name.loadbalancer.server.port=3000'
+      - 'traefik.http.routers.your-app-name.entrypoints=websecure'
+      - 'traefik.http.routers.your-app-name.tls.certresolver=external-resolver'
+      - 'external-service=true'
+      - "traefik.docker.network=traefik-external"
     build: .
-    container_name: 'rjm-template-base'
-    restart: always
+    container_name: your-app-name
+    environment:
+      DATABASE_URL: postgresql://prisma:prisma@db:5432/prismadb?schema=public
+    depends_on:
+      - db
+    networks:
+      - traefik-external
+      - your-app-network
+
+  db:
+    image: postgres:13
+    container_name: your-app-db
+    environment:
+      POSTGRES_USER: prisma
+      POSTGRES_PASSWORD: prisma
+      POSTGRES_DB: prismadb
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - your-app-network
+
+networks:
+  traefik-external:
+    external: true
+  your-app-network:
+
+volumes:
+  postgres-data:

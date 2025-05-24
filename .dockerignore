@@ -7,6 +7,7 @@ coverage
 docs
 node_modules
 tests
+test-coverage
 
 # Files
 .dockerignore
