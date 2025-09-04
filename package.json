@@ -41,6 +41,7 @@
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.11",
+		"prisma": "^6.15.0",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"tailwind-merge": "^3.3.0",
@@ -53,7 +54,6 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
-		"@prisma/client": "^6.8.2",
-		"prisma": "^6.8.2"
+		"@prisma/client": "^6.15.0"
 	}
 }
