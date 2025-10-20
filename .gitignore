@@ -1,6 +1,6 @@
+coverage
 test-results
 node_modules
-coverage
 
 # Output
 .output

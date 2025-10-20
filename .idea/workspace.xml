@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2c6ccc5-2a54-46fb-bac3-7b6a5e95b5aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/custom/LightDarkToggle.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/button/button.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-checkbox-item.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-content.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group-heading.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-item.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-label.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-group.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-item.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-separator.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-shortcut.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-content.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-trigger.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-trigger.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/page.svelte.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sveltekit-template.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/further-reading.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/further-reading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/prisma.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/page.svelte.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/demo-home-page-has-expected-h1/error-context.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bump" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RJMurg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:RJMurg/New-SK-P-Template.git&quot;,
+    &quot;accountId&quot;: &quot;1b3228b0-6d84-4412-a64a-0dcd9bc21e6d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xXK76ZeXYf0Ronux1TFN8PhQdJ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "remote-functions",
+    "last_opened_file_path": "/Users/I748363/personal/portfolio/sk-prisma-template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/I748363/personal/portfolio/sk-prisma-template/node_modules/prettier",
+    "ts.external.directory.path": "/Users/I748363/personal/portfolio/sk-prisma-template/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2c6ccc5-2a54-46fb-bac3-7b6a5e95b5aa" name="Changes" comment="" />
+      <created>1748078807134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748078807134</updated>
+      <workItem from="1748078808159" duration="1468000" />
+      <workItem from="1749556114322" duration="21000" />
+      <workItem from="1760918361956" duration="112000" />
+      <workItem from="1760918482008" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

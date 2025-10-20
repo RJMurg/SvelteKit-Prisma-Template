@@ -19,7 +19,7 @@ services:
       - your-app-network
 
   db:
-    image: postgres:13
+    image: postgres:17-alpine
     container_name: your-app-db
     environment:
       POSTGRES_USER: prisma
