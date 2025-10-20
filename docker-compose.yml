@@ -7,7 +7,7 @@ services:
       - 'traefik.http.routers.your-app-name.entrypoints=websecure'
       - 'traefik.http.routers.your-app-name.tls.certresolver=external-resolver'
       - 'external-service=true'
-      - "traefik.docker.network=traefik-external"
+      - 'traefik.docker.network=traefik-external'
     build: .
     container_name: your-app-name
     environment:
@@ -19,7 +19,7 @@ services:
       - your-app-network
 
   db:
-    image: postgres:13
+    image: postgres:17-alpine
     container_name: your-app-db
     environment:
       POSTGRES_USER: prisma
