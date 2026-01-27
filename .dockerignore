@@ -11,5 +11,5 @@ eslint.config.js
 .npmrc
 .prettierignore
 .prettierrc
-.github
+.forgejo
 bun.lockb

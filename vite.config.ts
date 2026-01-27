@@ -1,41 +1,35 @@
+import devtoolsJson from 'vite-plugin-devtools-json';
 import tailwindcss from '@tailwindcss/vite';
-import { svelteTesting } from '@testing-library/svelte/vite';
+import { defineConfig } from 'vitest/config';
+import { playwright } from '@vitest/browser-playwright';
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
-import { enhancedImages } from '@sveltejs/enhanced-img';
 
 export default defineConfig({
-	plugins: [enhancedImages(), tailwindcss(), sveltekit()],
+	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	test: {
-		coverage: {
-			reporter: ['json-summary'],
-			reportOnFailure: true
-		},
+		expect: { requireAssertions: true },
 		projects: [
 			{
 				extends: './vite.config.ts',
-				plugins: [svelteTesting()],
 				test: {
 					name: 'client',
-					environment: 'jsdom',
-					clearMocks: true,
-					include: ['tests/unit/**/*.{test,spec}.{js,ts}'],
-					exclude: ['src/lib/server/**', '.svelte-kit/**', 'build/**', 'node_modules/**'],
-					setupFiles: ['./vitest-setup-client.ts']
+					browser: {
+						enabled: true,
+						provider: playwright(),
+						instances: [{ browser: 'chromium', headless: true }]
+					},
+					include: ['tests/**/*.svelte.{test,spec}.{js,ts}'],
+					exclude: ['src/lib/server/**']
 				}
 			},
+
 			{
 				extends: './vite.config.ts',
 				test: {
 					name: 'server',
 					environment: 'node',
-					include: ['tests/unit/**/*.{test,spec}.{js,ts}'],
-					exclude: [
-						'src/**/*.svelte.{test,spec}.{js,ts}',
-						'.svelte-kit/**',
-						'build/**',
-						'node_modules/**'
-					]
+					include: ['tests/**/*.{test,spec}.{js,ts}'],
+					exclude: ['src/**/*.svelte.{test,spec}.{js,ts}']
 				}
 			}
 		]
