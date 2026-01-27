@@ -5,65 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c6ccc5-2a54-46fb-bac3-7b6a5e95b5aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/custom/LightDarkToggle.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/button/button.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-checkbox-item.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-content.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group-heading.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-item.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-label.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-group.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-item.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-separator.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-shortcut.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-content.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-trigger.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-trigger.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/page.svelte.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sveltekit-template.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/further-reading.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/further-reading.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-container.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.forgejo/workflows/build-container.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check-build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check-e2e.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check-lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check-vitest.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_10_2025,_01_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_10_2025__01_00__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/mcp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/featureToggles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/further-reading.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/prisma.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page.svelte.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/demo-home-page-has-expected-h1/error-context.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/custom/LightDarkToggle.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/button/button.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/button/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-checkbox-item.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-content.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group-heading.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-group.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-item.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-label.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-group.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-radio-item.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-separator.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-shortcut.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-content.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-sub-trigger.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/dropdown-menu-trigger.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/shad/ui/dropdown-menu/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/prisma.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/page.svelte.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/demo.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/demo.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitest-setup-client.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/I748363/personal/portfolio/sk-prisma-template" value="2xXK76ZeXYf0Ronux1TFN8PhQdJ" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +84,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="bump" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,7 +115,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "remote-functions",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "next",
+    "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/Users/I748363/personal/portfolio/sk-prisma-template",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -114,6 +125,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/I748363/personal/portfolio/sk-prisma-template/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.saveactions",
     "ts.external.directory.path": "/Users/I748363/personal/portfolio/sk-prisma-template/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -122,11 +134,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/unit" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
       </set>
     </attachedChunks>
   </component>
@@ -141,6 +157,7 @@
       <workItem from="1749556114322" duration="21000" />
       <workItem from="1760918361956" duration="112000" />
       <workItem from="1760918482008" duration="241000" />
+      <workItem from="1769524062956" duration="601000" />
     </task>
     <servers />
   </component>
@@ -157,5 +174,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
